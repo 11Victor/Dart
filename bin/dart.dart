@@ -15,4 +15,10 @@ void main(List<String> arguments) {
   print('Hello world: ${dart.calculate()}!');
   print(frase);
 
+  List<String> listNomes = ['Victor', 'Stephany'];
+
+  print('Todos os nomes: $listNomes');
+  print('Primeiro nome da Lista: ${listNomes[0]}');
+
+
 }
